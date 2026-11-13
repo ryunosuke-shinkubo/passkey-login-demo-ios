@@ -18,7 +18,7 @@ Passkey 認証の開始 URL に対して `state` と `redirect_uri` を付与し
 
 - **ログイン開始 URL**  
   認証開始用の URL を入力します。初期値は以下です。
-  - `https://sinfo.stg-trade.sbifxt.co.jp:1443/mpage/pf-login.html`
+  - `https://stg-trade.sbifxt.co.jp/mpage/pf-login.html`
 
 - **redirect URL**  
   認証後にアプリへ戻すための URL を入力します。初期値は以下です。
