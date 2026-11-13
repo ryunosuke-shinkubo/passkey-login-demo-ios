@@ -26,7 +26,7 @@ final class PasskeyRedirectViewModel: ObservableObject {
         }
     }
 
-    @Published var loginPageURLText = "https://sinfo.stg-trade.sbifxt.co.jp:1443/mpage/pf-login.html"
+    @Published var loginPageURLText = "https://stg-trade.sbifxt.co.jp/mpage/pf-login.html"
     @Published var redirectURLText = "https://ryunosuke-shinkubo.github.io/auth/callback.html"
     @Published var browserLaunchMode: BrowserLaunchMode = .systemBrowser
     @Published private(set) var pendingState = PasskeyRedirectViewModel.makeState()
